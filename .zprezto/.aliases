@@ -1,0 +1,25 @@
+alias codecept=~'/.config/composer/vendor/bin/codecept'
+alias php-cs-fixer=~'/.config/composer/vendor/bin/php-cs-fixer'
+alias ipc='ip --color'
+alias cat='bat'
+
+# git
+alias gst='git status'
+alias gds='git diff --summary'
+alias gdsh='git diff --shortstat'
+alias gdst='git diff --stat' 
+
+# exa (replacement for ls)
+alias ls='exa'
+alias l='exa --all --long --header --group'
+alias la='exa --all'
+alias ll='exa --long --header'
+alias lg='exa --long --git'
+alias lc='exa --color=always'
+
+# nvim (replacement for vi, vim)
+alias vi='nvim'
+alias vim='nvim'
+
+# copy text from terminal
+alias copy='xsel -i --clipboard'

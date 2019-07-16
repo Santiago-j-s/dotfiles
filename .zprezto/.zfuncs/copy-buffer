@@ -1,0 +1,2 @@
+# copy tmux buffer to clipboard
+tmux show-buffer | xsel -i --clipboard
